@@ -11,9 +11,11 @@ Technologies used: HTML, CSS, Bootstrap
 Website pages:
 
 1) News
-2) About the university -> About us, Troll Masters (dropdown with 2 options)
-3) Sepcialties -> Internet Troll, Real Life Troll (dropdown with 2 options)
-4) Partners
+2) About us 
+3) Troll masters
+4) Internet Troll -> assigned to Mitko
+5) Real Life Troll -> assigned to Mitko
+6) Partners -> assigned to Sevastian
 
 
 Page description:
@@ -29,3 +31,9 @@ around the world, or something like this, any ideas will be appreciated.
 3) Specialties -> I think it's pretty self-explanatory
 
 4) Here we'll link different pages and/or people who inspire us. Like Rick Astley, Eduard Khil, etc.
+
+
+
+Please use semantic HTML! Place your content in such a way that it'll be easys to style later on. 
+
+First off - think of what would look best for the page you design. Search in other websites for inspiration.
