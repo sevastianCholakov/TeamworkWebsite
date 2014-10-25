@@ -1,5 +1,42 @@
 ﻿#plugin {
-	margin-top: 17px;
-	margin-bottom: -50px;
-	padding-left: 20px;
+    margin-top: 17px;
+    margin-bottom: -50px;
+    padding-left: 20px;
 }
+
+body {
+    padding-top: 70px;
+    padding-bottom: 80px;
+}
+
+.navbar-default {
+    background-color: #2C3E50;
+    border-color: white;
+}
+
+    .navbar-default .navbar-nav > li > a {
+        color: white;
+    }
+
+        .navbar-default .navbar-nav > li > a:hover,
+        .navbar-default .navbar-nav > li > a:focus {
+            color: #18bc9c;
+            background-color: transparent;
+        }
+
+.navbar .nav > li.dropdown.open > .dropdown-toggle,
+.navbar .nav > li.dropdown.active > .dropdown-toggle,
+.navbar .nav > li.dropdown.open.active > .dropdown-toggle {
+    color: white;
+    background: #18bc9c;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+    .navbar-default .navbar-brand:hover,
+    .navbar-default .navbar-brand:focus {
+        color: #18bc9c;
+        background-color: transparent;
+    }
