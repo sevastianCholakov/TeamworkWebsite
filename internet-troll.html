@@ -5,7 +5,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="css/internet-troll.css"/>
     <link rel="stylesheet" href="css/style.css"/>
-    <script type="text/javascript" src="internet-troll.js"></script>
+    <script type="text/javascript" src="javascript/internet-troll.js"></script>
+    <script type="text/javascript" src="javascript/main-javascript.js"></script>
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <title>TROLL UNIVERSITY</title>
 </head>
@@ -57,8 +58,7 @@
     </header>
 
         <content class="container">
-            <p>First steps on becoming an</p>
-            <h1>INTERNET TROLL</h1><!--Impact font!-->
+            <h1>INTERNET TROLL</h1>
             <div class="panel-group" id="accordion">
                 <div class="panel panel-default">
                     <div class="panel-heading">
@@ -71,20 +71,16 @@
                     <div id="collapseOne" class="panel-collapse collapse in">
                         <div class="panel-body">
                             <article>
-                             <p id="description">A person whose sole purpose in life is to seek out people to argue with on the internet over extremely trivial issues. Such arguments can happen on blogs, Facebook, YouTube and a host of others.
-                            The best thing you can do to fight an internet troll is to not answer... or report them.
-                             </p>
-                             <p>
-                                 tl;dr Check out the video below
-                             </p>
-                             <p>
-                                 People who want other people MAD. They survived the holocaust and now live. U wot m8?
-                             </p>
-                                <img id="troll-image" src="images/troll-face.png" alt="Troll face">
-                              <p>
-                                  And yeah... Trololololol all the way.
-                              </p>
-                                <iframe width="560" height="315" src="//www.youtube.com/embed/FMEe7JqBgvg" frameborder="0" allowfullscreen autoplay="0"></iframe>
+                                <div id="description">
+                                    <p>Most commonly an internet troll is a person whose sole purpose in life is to seek out people to argue with on the internet over extremely trivial issues. Such arguments can happen on blogs, Facebook, YouTube and a host of others.
+                                    The best thing you can do to fight an internet troll is to not answer... or report them. They are people who want other people MAD. They survived the holocaust and now live. U wot m8?
+                                     </p>
+                                    <p>
+                                        <span id="tl-dr">tl;dr</span> Check out the video below
+                                    </p>
+                                </div>
+                                <img class="col-xs-6" id="troll-image" src="images/troll-face.png" alt="Troll face">
+                        <iframe class="col-xs-12 col-lg-6 col-sm-6" width="420" height="285" src="//www.youtube.com/embed/FMEe7JqBgvg" frameborder="0" allowfullscreen autoplay="0"></iframe>
                             </article>
                         </div>
                     </div>
@@ -99,19 +95,24 @@
                     </div>
                     <div id="collapseTwo" class="panel-collapse collapse">
                         <div class="panel-body">
-                            <article>
-                                <p>For once, a real troll MUST know who the following people are: </p>
-                                <p>Eduard Khil</p>
-                                <iframe width="560" height="315" src="//www.youtube.com/embed/2Z4m4lnjxkY" frameborder="0" allowfullscreen autoplay="0"></iframe>
-                                <p>Rick <span>Roll</span> Astley</p>
-                                <iframe width="560" height="315" src="//www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
-                                <p>And last but not least... </p>
-                                <p>Svetlin Nakov</p>
-                                <img src="images/nakov-troll.jpg" alt="nakov troll face"/>
-                                <p>Nakov is generally considered a master troll. Inhabiting the deserts of Africa and the chilly tundras, he is famous for his outstanding on-stage performance as a singer.
-                                Oh yeah, he's also a programmer or something.
-                                </p>
-                            </article>
+                                <h4>For once, a real troll MUST know who the following people are: </h4>
+                                <section id="eduard-khil-section" class="col-md-6 col-xs-12">
+                                    <h2>Eduard Khil</h2>
+                                    <iframe class="col-md-12 col-xs-12" width="530" height="315" src="//www.youtube.com/embed/2Z4m4lnjxkY" frameborder="0" allowfullscreen autoplay="0"></iframe>
+                                </section>
+                                <section id="rick-astley-section" class="col-md-6">
+                                    <h2>Rick <span id="rick-roll">Roll</span> Astley</h2>
+                                    <iframe class="col-md-12 col-xs-12" width="530" height="315" src="//www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+                                </section>
+
+                                <section id="svetlin-nakov-section" class="col-mg-6 offset3">
+                                    <h2>Svetlin Nakov</h2>
+                                    <img class="col-xs-12" src="images/nakov-troll.jpg" alt="nakov troll face"/>
+                                    <p>Nakov is generally considered a <a href="#">Troll Master</a>. Inhabiting the deserts of Africa and the chilly Middle Arctic undras, he is famous for his outstanding on-stage performance as a singer.
+                                    Oh yeah, he's also a programmer or something.
+                                    </p>
+                                    <p>For more troll examples, please visit our <a href="partners.html">Partners</a> page. There you'll find the main contributors behind our massive learning system.</p>
+                                </section>
                         </div>
                     </div>
                 </div>
@@ -125,20 +126,23 @@
                     </div>
                     <div id="collapseThree" class="panel-collapse collapse">
                         <div class="panel-body">
-                            <p>Okay, we've come to the mean part of the art trolling. First of all, to make people rage/ragequit, you must be very, very, very, very, very, very, very patient.
-                            Once you got that covered you must:
-                            </p>
-                            <ul>
-                                <li>Collect 313,535 slices of bread covered with mold.</li>
-                                <li>Feed them to 751.2 birds at exactly 7:53 in the morning. (<span>AM</span> for dummies)</li>
-                                <li>Take a dump.</li>
-                                <li>Don't eat it as usual.</li>
-                                <li>Shave with a lawn mower.</li>
-                                <li>Trim your hedges with a chainsaw</li>
-                                <li>Continue reading... (263 more steps)</li>
-                            </ul>
-                            <p>Finally, the outcome should be the following: </p>
-                            <iframe width="560" height="315" src="//www.youtube.com/embed/lIPq4jivLdQ" frameborder="0" allowfullscreen></iframe>
+                            <article>
+                                <p>Okay, we've come to the mean part of the trolling art. First of all, to make people rage/ragequit, you must be very, very, very, very, very, very, very patient.
+                                Once you got that covered you must do all of the listed things, else this won't work:
+                                </p>
+                                <ol>
+                                    <li>Collect 313,535 slices of bread covered with mold.</li>
+                                    <li>Feed them to 751.2 birds at exactly 7:53 in the morning. (<span>AM</span> for dummies)</li>
+                                    <li>Take a dump.</li>
+                                    <li>Don't eat it as usual.</li>
+                                    <li>Shave with a lawn mower.</li>
+                                    <li>Trim your hedges with a chainsaw.</li>
+                                    <li><a href="http://38.media.tumblr.com/tumblr_l55e5jFrnm1qzy15po1_250.gif">Continue reading... (263 more steps)</a></li>
+                                </ol>
+                                <p>Finally, the outcome should be the following: </p>
+                                <img class="col-md-6 col-sm-6 col-xs-12" src="images/rage-girl.jpg" alt="Girl Raging">
+                                <iframe class="col-md-6 col-sm-6 col-xs-12" width="560" height="315" src="//www.youtube.com/embed/lIPq4jivLdQ" frameborder="0" allowfullscreen></iframe>
+                            </article>
                         </div>
                     </div>
                 </div>
@@ -152,7 +156,22 @@
                     </div>
                     <div id="collapseFour" class="panel-collapse collapse">
                         <div class="panel-body">
-
+                            <article>
+                                <div id="strategies-div">
+                                    <p>Okay... now, for one to be a troll, one must act like life means nothing but laughs to him.</p>
+                                    <p>Below we've listed several things you must know to troll people successfully:</p>
+                                    <ol>
+                                        <li>Security is our number one priority. You might want to use a VPN or several e-mail addresses for multiple accounts.</li>
+                                        <li>Avoid connections between accounts. C'mon, could you really be that stup... stupendous? </li>
+                                        <li>Know your memes. Now you don't want to go around throwing jokes you heard on the internet without knowing their meaning.
+                                            <a href="http://knowyourmeme.com/">This</a> website might help you.</li>
+                                        <li>...</li>
+                                        <li>Profit</li>
+                                    </ol>
+                                </div>
+                                    <h4>A very good example of real life trolling.</h4>
+                                <iframe id="obama-video" class="col-xs-6" width="560" height="315" src="//www.youtube.com/embed/5LXdkzywYtY" frameborder="0" allowfullscreen autoplay="0"></iframe>
+                            </article>
                         </div>
                     </div>
                 </div>
