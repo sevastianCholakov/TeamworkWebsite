@@ -12,23 +12,61 @@ a, a:focus, a:hover {
 
 h1 {
     font-family: impact;
+    text-align: center;
+    font-size: 3.3em;
 }
 
 #troll-image {
     height: 25%;
     width: 25%;
     float: right;
-    vertical-align: top;
+    margin-top: 100px;
 }
 
 #description {
     float: left;
-    width: 70%;
-    margin: 5px;
+    width: 65%;
+    margin: 10px;
 }
 
-#article-image {
-    width: 100%;
+
+#obama-video {
+    float: right;
+    display: inline;
+}
+
+#strategies-div {
     height: 100%;
-    opacity: 0.1;
+    width: 50%;
+    float: left;
+    clear: right;
+    padding-right: 10px;
+}
+
+#troll-example {
+    margin-left: 50px;
+}
+
+#tl-dr {
+    font-weight: bold;
+    font-size: 1.5em;
+    display: block;
+}
+
+#rick-roll {
+    color: lightgray;
+    text-decoration: line-through;
+}
+
+
+#eduard-khil-section {
+    float: left;
+}
+
+#svetlin-nakov-section {
+    float: left;
+}
+
+h2{
+    text-align: center;
 }
