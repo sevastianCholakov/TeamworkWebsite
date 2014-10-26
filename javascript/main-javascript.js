@@ -15,43 +15,43 @@ $("#nav-two a")
 $("#beep-two").attr("id", "beep-two0");
 
 ///TROLOLO
-var playSound = document.getElementById('partners-trololo');
-var audio = document.getElementById('partners-trololo-audio');
-playSound.onmouseover = function () {
-    audio.play();
+var playSoundTrololo = document.getElementById('partners-trololo');
+var audioTrololo = document.getElementById('partners-trololo-audio');
+playSoundTrololo.onmouseover = function () {
+    audioTrololo.play();
 }
-playSound.onmouseout = function () {
-    audio.pause();
-    audio.currentTime = 0;
+playSoundTrololo.onmouseout = function () {
+    audioTrololo.pause();
+    audioTrololo.currentTime = 0;
 }
 ///RICK-ROLL
-var playSound = document.getElementById('partners-trololo');
-var audio = document.getElementById('partners-trololo-audio');
-playSound.onmouseover = function () {
-    audio.play();
+var playSoundRick = document.getElementById('partners-rick-roll');
+var audioRick = document.getElementById('partners-rick-roll-audio');
+playSoundRick.onmouseover = function () {
+    audioRick.play();
 }
-playSound.onmouseout = function () {
-    audio.pause();
-    audio.currentTime = 0;
+playSoundRick.onmouseout = function () {
+    audioRick.pause();
+    audioRick.currentTime = 0;
 }
 ///DJORDJANO
-var playSound = document.getElementById('partners-trololo');
-var audio = document.getElementById('partners-trololo-audio');
-playSound.onmouseover = function () {
-    audio.play();
+var playSoundDjordjano = document.getElementById('partners-djordjano');
+var audioDjordjano = document.getElementById('partners-djordjano-audio');
+playSoundDjordjano.onmouseover = function () {
+    audioDjordjano.play();
 }
-playSound.onmouseout = function () {
-    audio.pause();
-    audio.currentTime = 0;
+playSoundDjordjano.onmouseout = function () {
+    audioDjordjano.pause();
+    audioDjordjano.currentTime = 0;
 }
 ///3 PAC
-var playSound = document.getElementById('partners-trololo');
-var audio = document.getElementById('partners-trololo-audio');
-playSound.onmouseover = function () {
-    audio.play();
+var playSound3pac = document.getElementById('partners-3pac');
+var audio3pac = document.getElementById('partners-3pac-audio');
+playSound3pac.onmouseover = function () {
+    audio3pac.play();
 }
-playSound.onmouseout = function () {
-    audio.pause();
-    audio.currentTime = 0;
+playSound3pac.onmouseout = function () {
+    audio3pac.pause();
+    audio3pac.currentTime = 0;
 }
 ///
