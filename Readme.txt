@@ -11,7 +11,7 @@ Technologies used: HTML, CSS, Bootstrap
 Website pages:
 
 1) News
-2) About us 
+2) About us -> assigned to Ivan
 3) Troll masters
 4) Internet Troll -> assigned to Mitko
 5) Real Life Troll -> assigned to Mitko
