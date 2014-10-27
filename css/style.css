@@ -90,3 +90,9 @@ body {
 .breadcrumb .active {
     color:dimgray;
 }
+#plugin iframe {
+     border:none;
+     overflow:hidden;
+     width:200px;
+     height:21px;
+}
