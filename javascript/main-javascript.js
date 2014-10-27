@@ -74,3 +74,6 @@ playSoundFhritp.onmouseout = function () {
     audioFhritp.pause();
     audioFhritp.currentTime = 0;
 }
+function uwotm8() {
+    alert("U WOT M8 ?");
+}
