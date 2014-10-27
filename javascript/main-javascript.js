@@ -54,4 +54,23 @@ playSound3pac.onmouseout = function () {
     audio3pac.pause();
     audio3pac.currentTime = 0;
 }
-///
+///relefa
+var playSoundRelefa = document.getElementById('partners-relefa');
+var audioRelefa = document.getElementById('partners-relefa-audio');
+playSoundRelefa.onmouseover = function () {
+    audioRelefa.play();
+}
+playSoundRelefa.onmouseout = function () {
+    audioRelefa.pause();
+    audioRelefa.currentTime = 0;
+}
+///fhritp
+var playSoundFhritp = document.getElementById('partners-fhritp');
+var audioFhritp = document.getElementById('partners-fhritp-audio');
+playSoundFhritp.onmouseover = function () {
+    audioFhritp.play();
+}
+playSoundFhritp.onmouseout = function () {
+    audioFhritp.pause();
+    audioFhritp.currentTime = 0;
+}
