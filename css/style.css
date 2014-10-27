@@ -7,6 +7,9 @@
 body {
     padding-top: 70px;
     padding-bottom: 80px;
+    background-image: url(../images/background-image.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .navbar-default {
@@ -60,10 +63,4 @@ body {
 
 html {
     background: transparent;
-}
-
-body {
-    background-image: url(../images/background-image.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
 }
