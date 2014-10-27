@@ -74,3 +74,17 @@ h2{
 iframe {
     border: 0;
 }
+
+html {
+    background: transparent;
+}
+
+body {
+    background-image: url(../images/background-image.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+section {
+    text-shadow: 2px 2px 15px gray;
+}

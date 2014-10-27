@@ -1,5 +1,7 @@
-﻿* {
-    font-family: 'Titillium Web', sans-serif;
+﻿#plugin {
+    margin-top: 17px;
+    margin-bottom: -50px;
+    padding-left: 20px;
 }
 
 body {
@@ -9,7 +11,7 @@ body {
 
 .navbar-default {
     background-color: #2C3E50;
-    border:none;
+    border-color: white;
 }
 
     .navbar-default .navbar-nav > li > a {
@@ -45,54 +47,23 @@ body {
 }
 
 #partners .thumbnail img {
-    -webkit-transition: all 0.7s ease 0s;
-    -moz-transition: all 0.7s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
     width: 100%;
 }
 #partners .thumbnail {
     overflow: hidden;
 }
-#partners article:last-child {
-
-}
 #partners .partners-panel{
     margin-top:-20px;
 }
-#partners .panel-body {
-    background:url("http://api.thumbr.it/whitenoise-361x370.png?");
-}
-#partners .panel-heading {
-    background:#2C3E50;
-    color:white;
-}
-#partners h1{
-    margin:-2px;
-    font-weight:bold;
-}
-#partners h2 {
-    margin-top:-2px;
-    font-style:italic;
-    font-weight:bold;
-}
-#partners p {
-    font-size:18px;
+
+html {
+    background: transparent;
 }
 
-.breadcrumb {
-    margin-top:-20px;
-    background-color:#18bc9c;
-    border-top-left-radius:0;
-    border-top-right-radius:0;
-}
-.breadcrumb a {
-    color:white;
-}
-.breadcrumb .active {
-    color:dimgray;
-}
-#plugin iframe {
-     border:none;
-     overflow:hidden;
-     width:200px;
-     height:21px;
+body {
+    background-image: url(../images/background-image.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }

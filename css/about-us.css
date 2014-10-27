@@ -1,0 +1,55 @@
+section{
+  margin-top:70px;
+}
+article img {
+	float: left;
+	margin-right: 5px;
+}
+article {
+	font-family: 'Times New Roman';
+	background-color: #F8F8F8;
+	border-radius: 5px;
+	border: 1px solid lightgray;
+	box-shadow: 5px 5px 15px gray;
+	font-size: 20px;
+	height: 290px;
+	max-width: 500px;
+}
+	article:hover {
+		box-shadow: 5px 5px 15px #4750F7;
+	}
+.top-articles{
+	float:left;
+	margin:20px;
+}
+.bottom-articles{
+	width:500px;
+	float:left;
+	margin:20px;
+}
+
+h1 {
+	color: #4750F7;
+	text-align: center;
+}
+p{
+	font-size:17px;
+}
+
+.blue-troll {
+	color: #4750F7;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.secret{
+	text-transform:uppercase;
+	color:red;
+}
+.link:hover {
+	border: 1px solid #4750F7;
+	border-radius: 2px;
+	text-decoration: none;
+	background-color: #4750F7;
+	color:white;
+	text-transform:uppercase;
+}

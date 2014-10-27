@@ -1,0 +1,29 @@
+section{
+   margin-top:70px;
+}
+article {
+	font-family: 'Times New Roman';
+	background-color: white;
+	border-radius: 5px;
+	border: 1px solid lightgray;
+	box-shadow: 5px 5px 15px gray;
+	font-size: 20px;
+	height: 400px;
+	max-width: 1200px;
+	margin:20px;
+}
+#top-article{
+	max-width:1200px;
+	height:70px;
+	text-align:center;
+}
+.h-blue {
+	color: #4750F7;
+}
+.h3{
+	margin-left:15px;
+	text-shadow:8px 8px 5px gray;
+}
+.faces{
+	margin:55px;
+}
