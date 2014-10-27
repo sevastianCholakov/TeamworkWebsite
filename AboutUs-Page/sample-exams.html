@@ -6,60 +6,34 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>TROLL UNIVERSITY</title>
     <style>
-        section{
-          margin-top:70px;
-        }
-        article img {
-            float: left;
-            margin-right: 5px;
-        }
+       section{
+           margin-top:70px;
+       }
         article {
             font-family: 'Times New Roman';
-            background-color: #F8F8F8;
+            background-color: white;
             border-radius: 5px;
             border: 1px solid lightgray;
             box-shadow: 5px 5px 15px gray;
             font-size: 20px;
-            height: 290px;
-            max-width: 500px;
-        }
-            article:hover {
-                box-shadow: 5px 5px 15px #4750F7;
-            }
-        .top-articles{
-            float:left;
+            height: 400px;
+            max-width: 1200px;
             margin:20px;
         }
-        .bottom-articles{
-            width:500px;
-            float:left;
-            margin:20px;
+        #top-article{
+            max-width:1200px;
+            height:70px;
+            text-align:center;
         }
-
-        h1 {
+        .h-blue {
             color: #4750F7;
-            text-align: center;
         }
-        p{
-            font-size:17px;
+        .h3{
+            margin-left:15px;
+            text-shadow:8px 8px 5px gray;
         }
-
-        .blue-troll {
-            color: #4750F7;
-            font-weight: bold;
-            text-transform: uppercase;
-        }
-        .secret{
-            text-transform:uppercase;
-            color:red;
-        }
-        .link:hover {
-            border: 1px solid #4750F7;
-            border-radius: 2px;
-            text-decoration: none;
-            background-color: #4750F7;
-            color:white;
-            text-transform:uppercase;
+        .faces{
+            margin:55px;
         }
     </style>
 </head>
@@ -111,47 +85,43 @@
         </header>
 
         <section>
-            <article class="top-articles">
-                <h1>Troll University</h1>
-                <div id="about">
-                    <img src="images/trollGraduate.PNG" />
-                    <p id="text">
-                        For us as for the<span class="blue-troll">troll</span> industry, the most important thing is
-                        making "people" incredible <span class="blue-troll">trolls</span> and make them professionals in the <span class="blue-troll">
-                            troll
-                        </span> business!
-                        Our learning system is probably the worst in the whole world and we will make you a hyper
-                        <span class="blue-troll">troll</span> in just two hundred years.
-                    </p>
+            <article id="top-article">
+                <h1 class="h-blue">You must do the following faces, to pass the exam!</h1>
+            </article>
+
+            <article>
+                <div id="angryFace">
+                <h3 class="h3">Problem 1: Angry Faces</h3> 
+                <img src="images/agryTroll1.PNG" class="faces" />
+                <img src="images/angryTroll3.PNG" class="faces" />
+                <img src="images/angryTroll2.PNG" class="faces" />
                 </div>
             </article>
 
-            <article class="top-articles">
-                <h1>Our Exams</h1>
-                <div id="exams">
-                    <img src="images/trollOnComp.PNG" />
-                    <p>
-                        If you want to apply for our <span class="blue-troll">troll</span> <span class="blue-troll">university</span> you have to pass the admission exam.
-                        The exam will have four problems to solve. You will have two seconds to solve them and to prove that you are a real <span class="blue-troll">troll</span>.<a href="SampleExams.html" title="Sample Exams" class="link"> Here </a>you can find some sample test.
-                        For the БАШ-EXAMS you have to be 100% <span class="blue-troll">troll</span> approved. For now they are <span class="secret">top-secret</span>!
-                    </p>
+            <article>
+                <div id="sadFace">
+                    <h3 class="h3">Problem 2: Sad Faces</h3>
+                    <img src="images/sadTroll.PNG" class="faces" />
+                    <img src="images/sadTroll1.PNG" class="faces" />
+                    <img src="images/sadTroll2.PNG" class="faces" />
                 </div>
             </article>
 
-            <article class="bottom-articles">
-                <h1>History</h1>
-                <p>The <span class="blue-troll">Troll University</span> is the oldest, largest institution. with the biggest number of dropouts. 
-                According to the ranking of world's top universities of 2014, it's ranked 23610 in the known universe. 
-                It was created on October 1, 478 BC and and there is no progress since then, whatsoever.
-                In 2007 it closed its doors because of the global crisis in the <span class="blue-troll">troll</span> industry. 
-                However, in 2010 The University opened doors despite the crisis!</p>
+            <article>
+                <div id="thinkingFace">
+                    <h3 class="h3">Problem 3: Thinking Faces</h3>
+                    <img src="images/thinkTroll2.PNG" class="faces" />
+                    <img src="images/thinkTroll.PNG" class="faces" />
+                    <img src="images/thinkTroll1.PNG" class="faces" />
+                </div>
             </article>
-
-            <article class ="bottom-articles">
-                <h1>Where To Find Us</h1>
-                <div id="location">
-                    <img src="images/thinkigTroll.PNG" />
-                    <p>Click <a href="MapPage.html" class="link">Here</a> to see where we are one the map!</p>
+            
+            <article>
+                <div id="happyFaces">
+                    <h3 class="h3">Problem 4: Happy Faces</h3>
+                    <img src="images/happyTroll.PNG" class="faces" />
+                    <img src="images/happyTroll1.PNG" class="faces" />
+                    <img src="images/happyTroll3.PNG" class="faces" />
                 </div>
             </article>
         </section>
