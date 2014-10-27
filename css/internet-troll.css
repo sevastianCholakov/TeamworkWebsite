@@ -85,6 +85,6 @@ body {
     background-attachment: fixed;
 }
 
-section {
-    text-shadow: 2px 2px 15px gray;
+article {
+    text-shadow: 2px 2px 25px gray;
 }

@@ -1,5 +1,5 @@
 #troll-video {
-    height: 550px;
+    height: 520px;
 }
 
 #troll-video-article {
@@ -53,6 +53,20 @@ body {
     background-attachment: fixed;
 }
 
-section {
-    text-shadow: 2px 2px 15px gray;
+article {
+    text-shadow: 2px 2px 25px gray;
+}
+
+iframe {
+    border: 0;
+}
+
+#xbox-skype {
+    height: 100%;
+    width: 100%;
+}
+
+h2 {
+    padding-top: 0px;
+    text-align: center;
 }

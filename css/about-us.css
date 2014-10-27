@@ -53,3 +53,7 @@ p{
 	color:white;
 	text-transform:uppercase;
 }
+
+iframe {
+    border: 0;
+}

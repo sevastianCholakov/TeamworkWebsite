@@ -27,3 +27,7 @@ article {
 .faces{
 	margin:55px;
 }
+
+iframe {
+    border: 0;
+}
