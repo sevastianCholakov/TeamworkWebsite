@@ -31,9 +31,12 @@ article {
 h1 {
 	color: #4750F7;
 	text-align: center;
+    margin-top:0;
+    padding:5px;
 }
 p{
 	font-size:17px;
+    padding-left:15px;
 }
 
 .blue-troll {
@@ -56,4 +59,7 @@ p{
 
 iframe {
     border: 0;
+}
+footer p {
+    padding:0;
 }

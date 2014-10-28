@@ -1,4 +1,4 @@
-.lesson-header {
+﻿.lesson-header {
     padding-left: 10px;
     color: black;
     font-weight: bold;
@@ -12,79 +12,23 @@ a, a:focus, a:hover {
 
 h1 {
     font-family: impact;
-    text-align: center;
-    font-size: 3.3em;
 }
 
 #troll-image {
     height: 25%;
     width: 25%;
     float: right;
-    margin-top: 100px;
+    vertical-align: top;
 }
 
 #description {
     float: left;
-    width: 65%;
-    margin: 10px;
+    width: 70%;
+    margin: 5px;
 }
 
-
-#obama-video {
-    float: right;
-    display: inline;
-}
-
-#strategies-div {
+#article-image {
+    width: 100%;
     height: 100%;
-    width: 50%;
-    float: left;
-    clear: right;
-    padding-right: 10px;
-}
-
-#troll-example {
-    margin-left: 50px;
-}
-
-#tl-dr {
-    font-weight: bold;
-    font-size: 1.5em;
-    display: block;
-}
-
-#rick-roll {
-    color: lightgray;
-    text-decoration: line-through;
-}
-
-
-#eduard-khil-section {
-    float: left;
-}
-
-#svetlin-nakov-section {
-    float: left;
-}
-
-h2{
-    text-align: center;
-}
-
-iframe {
-    border: 0;
-}
-
-html {
-    background: transparent;
-}
-
-body {
-    background-image: url(../images/background-image.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
-article {
-    text-shadow: 2px 2px 25px gray;
+    opacity: 0.1;
 }

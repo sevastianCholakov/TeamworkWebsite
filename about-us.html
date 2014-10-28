@@ -3,12 +3,16 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/style.css" />
-	<link rel="stylesheet" href="css/about-us.css"/>
+    <link href="css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/about-us.css" />
     <title>About Us</title>
 </head>
 <body>
     <div class="container">
+        <ol class="breadcrumb">
+            <li><a href="home.html">Home</a></li>
+            <li class="active">About us</li>
+        </ol>
         <header>
             <div class="navbar navbar-default navbar-fixed-top">
                 <div class="container">
@@ -32,15 +36,7 @@
                             <li>
                                 <a href="index.html">Home</a>
                             </li>
-                            <li class="dropdown">
-                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                                    About the university<b class="caret"></b>
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#">About us</a></li>
-                                    <li><a href="#">Troll masters</a></li>
-                                </ul>
-                            </li>
+                            <li><a href="about-us.html">About us</a></li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Specialties<b class="caret"></b></a>
                                 <ul class="dropdown-menu">
@@ -48,6 +44,7 @@
                                     <li><a href="real-life-troll.html">Real Life Troll</a></li>
                                 </ul>
                             <li><a href="partners.html">Partners</a></li>
+                            <li><a href="contact.html">Contacts</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -57,7 +54,7 @@
             <article class="top-articles">
                 <h1>Troll University</h1>
                 <div id="about">
-                    <img src="images/trollGraduate.PNG" alt="troll graduate image"/>
+                    <img src="images/trollGraduate.PNG" alt="troll graduate image" />
                     <p id="text">
                         For us as for the<span class="blue-troll"> troll</span> industry, the most important thing is
                         making "people" incredible <span class="blue-troll">trolls</span> and make them professionals in the <span class="blue-troll">
@@ -68,11 +65,10 @@
                     </p>
                 </div>
             </article>
-
             <article class="top-articles">
                 <h1>Our Exams</h1>
                 <div id="exams">
-                    <img src="images/trollOnComp.PNG" alt="troll sitting on PC"/>
+                    <img src="images/trollOnComp.PNG" alt="troll sitting on PC" />
                     <p>
                         If you want to apply for our <span class="blue-troll">troll</span> <span class="blue-troll">university</span> you have to pass the admission exam.
                         The exam will have four problems to solve. You will have two seconds to solve them and to prove that you are a real <span class="blue-troll">troll</span>.<a href="sample-exams.html" title="sample-exams" class="link"> Here </a>you can find some sample test.
@@ -80,30 +76,30 @@
                     </p>
                 </div>
             </article>
-
             <article class="bottom-articles">
                 <h1>History</h1>
-                <p>The <span class="blue-troll">Troll University</span> is the oldest, largest institution. with the biggest number of dropouts. 
-                According to the ranking of world's top universities of 2014, it's ranked 23610 in the known universe. 
-                It was created on October 1, 478 BC and and there is no progress since then, whatsoever.
-                In 2007 it closed its doors because of the global crisis in the <span class="blue-troll">troll</span> industry. 
-                However, in 2010 The University opened doors despite the crisis!</p>
+                <p>
+                    The <span class="blue-troll">Troll University</span> is the oldest, largest institution. with the biggest number of dropouts.
+                    According to the ranking of world's top universities of 2014, it's ranked 23610 in the known universe.
+                    It was created on October 1, 478 BC and and there is no progress since then, whatsoever.
+                    In 2007 it closed its doors because of the global crisis in the <span class="blue-troll">troll</span> industry.
+                    However, in 2010 The University opened doors despite the crisis!
+                </p>
             </article>
-
-            <article class ="bottom-articles">
+            <article class="bottom-articles">
                 <h1>Where To Find Us</h1>
                 <div id="location">
-                    <img src="images/thinkigTroll.PNG" alt="troll who is thinking"/>
+                    <img src="images/thinkigTroll.PNG" alt="troll who is thinking" />
                     <p>Click <a href="map.html" class="link">Here</a> to see where we are one the map!</p>
                 </div>
             </article>
         </section>
 
-
         <footer>
             <div class="navbar navbar-inverse navbar-fixed-bottom">
                 <div class="container">
                     <p class="navbar-text pull-left">&copy; Team Chamoisee&nbsp;&nbsp;&nbsp;</p>
+
                     <p class="pull-left navbar-text hidden-xs">
                         <a href="http://validator.w3.org/check?uri=referer">
                             <img src="http://949web.com/images/w3chtml5.png"
@@ -116,13 +112,19 @@
                                  alt="Valid CSS 3!" height="25" width="80" />
                         </a>
                     </p>
-                    <div id="plugin" class="pull-left">
-                        <iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Ftr0lluni%2F&amp;width=150&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=21" style="border:none; overflow:hidden; width:200px; height:21px;"></iframe>
+                    <div id="plugin" class="pull-left navbar-btn btn ">
+                        <iframe class="hidden-md hidden-sm hidden-xs" src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Ftr0lluni%2F&amp;width=150&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=21"></iframe>
                     </div>
+
+                    <a class="navbar-btn pull-left btn hidden-md hidden-sm hidden-xs" href=" http://www.zombo.com">
+                        <img src="images/zombo.jpg" height="25" width="120" alt="zombo" />
+                    </a>
+
                     <a class="navbar-btn btn-primary pull-right btn" href="https://softuni.bg">
-                        <img src="images/softuni-logo.png" alt="SoftUni" height="25" width="120" />
+                        <img src="images/softuni-logo.png" height="25" width="120" alt="softuni" />
                     </a>
                     <p class="navbar-text pull-right hidden-xs hidden-sm">Please visit softuni.bg</p>
+
                 </div>
             </div>
         </footer>

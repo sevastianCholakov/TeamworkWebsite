@@ -1,54 +1,56 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="css/internet-troll.css"/>
-    <link rel="stylesheet" href="css/style.css"/>
-    <script type="text/javascript" src="javascript/internet-troll.js"></script>
-    <script type="text/javascript" src="javascript/main-javascript.js"></script>
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/internet-troll.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Internet Troll</title>
 </head>
 <body>
-<div class="container">
-    <header>
-        <div class="navbar navbar-default navbar-fixed-top">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a href="home.html"><img class="navbar-brand" src="images/troll-logo.png" width="350" alt="troll-logo" /></a>
+    <div class="container">
+        <ol class="breadcrumb">
+            <li><a href="index.html">Home</a></li>
+            <li class="active">Specialties</li>
+            <li class="active">Internet troll</li>
+        </ol>
+        <header>
+            <div class="navbar navbar-default navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a href="home.html"><img class="navbar-brand" src="images/troll-logo.png" width="350" alt="troll-logo" /></a>
+                    </div>
+                    <nav class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav pull-right" id="nav-two">
+                            <li>
+                                <audio id="beep-two" preload="auto">
+                                    <source src="sounds/beep.mp3" />
+                                    <source src="sounds/beep.ogg" />
+                                    Your browser isn't invited for super fun time.
+                                </audio>
+                            </li>
+                            <li>
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li><a href="about-us.html">About us</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Specialties<b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="internet-troll.html">Internet Troll</a></li>
+                                    <li><a href="real-life-troll.html">Real Life Troll</a></li>
+                                </ul>
+                            <li><a href="partners.html">Partners</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
                 </div>
-                <nav class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav pull-right" id="nav-two">
-                        <li>
-                            <audio id="beep-two" preload="auto">
-                                <source src="sounds/beep.mp3" />
-                                <source src="sounds/beep.ogg" />
-                                Your browser isn't invited for super fun time.
-                            </audio>
-                        </li>
-                        <li>
-                            <a href="index.html">Home</a>
-                        </li>
-                        <li><a href="about-us.html">About us</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Specialties<b class="caret"></b></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="internet-troll.html">Internet Troll</a></li>
-                                <li><a href="real-life-troll.html">Real Life Troll</a></li>
-                            </ul>
-                        <li><a href="partners.html">Partners</a></li>
-                    </ul>
-                </nav>
             </div>
-        </div>
-    </header>
-
+        </header>
         <section>
             <h1>INTERNET TROLL</h1>
             <div class="panel-group" id="accordion">
@@ -56,7 +58,7 @@
                     <div class="panel-heading">
                         <h4 class="panel-title">
                             <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" onclick="insertGlyph()">
-                               <i class="glyphicon glyphicon-chevron-down"></i><span class="lesson-header">What is an internet troll</span>
+                                <i class="glyphicon glyphicon-chevron-down"></i><span class="lesson-header">What is an internet troll</span>
                             </a>
                         </h4>
                     </div>
@@ -64,15 +66,16 @@
                         <div class="panel-body">
                             <article>
                                 <div id="description">
-                                    <p>Most commonly an internet troll is a person whose sole purpose in life is to seek out people to argue with on the internet over extremely trivial issues. Such arguments can happen on blogs, Facebook, YouTube and a host of others.
-                                    The best thing you can do to fight an internet troll is to not answer... or report them. They are people who want other people MAD. They survived the holocaust and now live. U wot m8?
-                                     </p>
+                                    <p>
+                                        Most commonly an internet troll is a person whose sole purpose in life is to seek out people to argue with on the internet over extremely trivial issues. Such arguments can happen on blogs, Facebook, YouTube and a host of others.
+                                        The best thing you can do to fight an internet troll is to not answer... or report them. They are people who want other people MAD. They survived the holocaust and now live. U wot m8?
+                                    </p>
                                     <p>
                                         <span id="tl-dr">tl;dr</span> Check out the video below
                                     </p>
                                 </div>
                                 <img class="col-xs-6" id="troll-image" src="images/troll-face.png" alt="Troll face">
-                        <iframe class="col-xs-12 col-lg-6 col-sm-6" width="420" height="285" src="//www.youtube.com/embed/FMEe7JqBgvg" allowfullscreen></iframe>
+                                <iframe class="col-xs-12 col-lg-6 col-sm-6" width="420" height="285" src="//www.youtube.com/embed/FMEe7JqBgvg" allowfullscreen></iframe>
                             </article>
                         </div>
                     </div>
@@ -87,24 +90,24 @@
                     </div>
                     <div id="collapseTwo" class="panel-collapse collapse">
                         <div class="panel-body">
-                                <h4>For once, a real troll MUST know who the following people are: </h4>
-                                <section id="eduard-khil-section" class="col-md-6 col-xs-12">
-                                    <h2>Eduard Khil</h2>
-                                    <iframe class="col-md-12 col-xs-12" width="530" height="315" src="//www.youtube.com/embed/2Z4m4lnjxkY" allowfullscreen></iframe>
-                                </section>
-                                <section id="rick-astley-section" class="col-md-6">
-                                    <h2>Rick <span id="rick-roll">Roll</span> Astley</h2>
-                                    <iframe class="col-md-12 col-xs-12" width="530" height="315" src="//www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
-                                </section>
-
-                                <section id="svetlin-nakov-section" class="col-mg-6 offset3">
-                                    <h2>Svetlin Nakov</h2>
-                                    <img class="col-xs-12" src="images/nakov-troll.jpg" alt="nakov troll face"/>
-                                    <p>Nakov is generally considered a <a href="#">Troll Master</a>. Inhabiting the deserts of Africa and the chilly Middle Arctic undras, he is famous for his outstanding on-stage performance as a singer.
+                            <h4>For once, a real troll MUST know who the following people are: </h4>
+                            <section id="eduard-khil-section" class="col-md-6 col-xs-12">
+                                <h2>Eduard Khil</h2>
+                                <iframe class="col-md-12 col-xs-12" width="530" height="315" src="//www.youtube.com/embed/2Z4m4lnjxkY" allowfullscreen></iframe>
+                            </section>
+                            <section id="rick-astley-section" class="col-md-6">
+                                <h2>Rick <span id="rick-roll">Roll</span> Astley</h2>
+                                <iframe class="col-md-12 col-xs-12" width="530" height="315" src="//www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+                            </section>
+                            <section id="svetlin-nakov-section" class="col-mg-6 offset3">
+                                <h2>Svetlin Nakov</h2>
+                                <img class="col-xs-12" src="images/nakov-troll.jpg" alt="nakov troll face" />
+                                <p>
+                                    Nakov is generally considered a <a href="#">Troll Master</a>. Inhabiting the deserts of Africa and the chilly Middle Arctic undras, he is famous for his outstanding on-stage performance as a singer.
                                     Oh yeah, he's also a programmer or something.
-                                    </p>
-                                    <p>For more troll examples, please visit our <a href="partners.html">Partners</a> page. There you'll find the main contributors behind our massive learning system.</p>
-                                </section>
+                                </p>
+                                <p>For more troll examples, please visit our <a href="partners.html">Partners</a> page. There you'll find the main contributors behind our massive learning system.</p>
+                            </section>
                         </div>
                     </div>
                 </div>
@@ -119,8 +122,9 @@
                     <div id="collapseThree" class="panel-collapse collapse">
                         <div class="panel-body">
                             <article>
-                                <p>Okay, we've come to the mean part of the trolling art. First of all, to make people rage/ragequit, you must be very, very, very, very, very, very, very patient.
-                                Once you got that covered you must do all of the listed things, else this won't work:
+                                <p>
+                                    Okay, we've come to the mean part of the trolling art. First of all, to make people rage/ragequit, you must be very, very, very, very, very, very, very patient.
+                                    Once you got that covered you must do all of the listed things, else this won't work:
                                 </p>
                                 <ol>
                                     <li>Collect 313,535 slices of bread covered with mold.</li>
@@ -155,56 +159,61 @@
                                     <ol>
                                         <li>Security is our number one priority. You might want to use a VPN or several e-mail addresses for multiple accounts.</li>
                                         <li>Avoid connections between accounts. C'mon, could you really be that stup... stupendous? </li>
-                                        <li>Know your memes. Now you don't want to go around throwing jokes you heard on the internet without knowing their meaning.
-                                            <a href="http://knowyourmeme.com/">This</a> website might help you.</li>
+                                        <li>
+                                            Know your memes. Now you don't want to go around throwing jokes you heard on the internet without knowing their meaning.
+                                            <a href="http://knowyourmeme.com/">This</a> website might help you.
+                                        </li>
                                         <li>...</li>
                                         <li>Profit</li>
                                     </ol>
                                 </div>
-                                    <h4>A very good example of real life trolling.</h4>
+                                <h4>A very good example of real life trolling.</h4>
                                 <iframe id="obama-video" class="col-xs-6" width="560" height="315" src="//www.youtube.com/embed/5LXdkzywYtY" allowfullscreen></iframe>
                             </article>
                         </div>
                     </div>
                 </div>
             </div>
-
         </section>
+        <footer>
+            <div class="navbar navbar-inverse navbar-fixed-bottom">
+                <div class="container">
+                    <p class="navbar-text pull-left">&copy; Team Chamoisee&nbsp;&nbsp;&nbsp;</p>
 
-    <footer>
-        <div class="navbar navbar-inverse navbar-fixed-bottom">
-            <div class="container">
-                <p class="navbar-text pull-left">&copy; Team Chamoisee&nbsp;&nbsp;&nbsp;</p>
+                    <p class="pull-left navbar-text hidden-xs">
+                        <a href="http://validator.w3.org/check?uri=referer">
+                            <img src="http://949web.com/images/w3chtml5.png"
+                                 alt="Valid HTML 5!" height="25" width="80" />
+                        </a>
+                    </p>
+                    <p class="pull-left navbar-text hidden-xs">
+                        <a href="http://validator.w3.org/check?uri=referer">
+                            <img src="http://www.vivarenov.com/images/css3.png"
+                                 alt="Valid CSS 3!" height="25" width="80" />
+                        </a>
+                    </p>
+                    <div id="plugin" class="pull-left navbar-btn btn ">
+                        <iframe class="hidden-md hidden-sm hidden-xs" src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Ftr0lluni%2F&amp;width=150&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=21"></iframe>
+                    </div>
 
-                <p class="pull-left navbar-text hidden-xs">
-                    <a href="http://validator.w3.org/check?uri=referer">
-                        <img src="http://949web.com/images/w3chtml5.png"
-                             alt="Valid HTML 5!" height="25" width="80" />
+                    <a class="navbar-btn pull-left btn hidden-md hidden-sm hidden-xs" href=" http://www.zombo.com">
+                        <img src="images/zombo.jpg" height="25" width="120" alt="zombo" />
                     </a>
-                </p>
-                <p class="pull-left navbar-text hidden-xs">
-                    <a href="http://validator.w3.org/check?uri=referer">
-                        <img src="http://www.vivarenov.com/images/css3.png"
-                             alt="Valid CSS 3!" height="25" width="80" />
+
+                    <a class="navbar-btn btn-primary pull-right btn" href="https://softuni.bg">
+                        <img src="images/softuni-logo.png" height="25" width="120" alt="softuni" />
                     </a>
-                </p>
-                <div id="plugin" class="pull-left">
-                    <iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Ftr0lluni%2F&amp;width=150&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=21" style="border:none; overflow:hidden; width:200px; height:21px;"></iframe>
+                    <p class="navbar-text pull-right hidden-xs hidden-sm">Please visit softuni.bg</p>
+
                 </div>
-                <a class="navbar-btn btn-primary pull-right btn" href="https://softuni.bg">
-                    <img src="images/softuni-logo.png" height="25" width="120" alt="SoftuniLogo" />
-                </a>
-                <p class="navbar-text pull-right hidden-xs hidden-sm">Please visit softuni.bg</p>
-
             </div>
-        </div>
-    </footer>
-
-</div>
-
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-<div id="fb-root"></div>
+        </footer>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="javascript/internet-troll.js"></script>
+    <script src="javascript/main-javascript.js"></script>
+    <div id="fb-root"></div>
 </body>
 </html>
