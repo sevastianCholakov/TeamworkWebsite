@@ -77,3 +77,13 @@ playSoundFhritp.onmouseout = function () {
 function uwotm8() {
     alert("U WOT M8 ?");
 }
+function notsure() {
+    alert("Not sure if srs");
+    alert("Not sure if srs");
+    alert("Not sure if srs");
+    alert("Not sure if srs");
+    alert("Not sure if srs");
+    alert("Not sure if srs");
+    alert("Not sure if srs");
+    alert("Not sure if srs");
+}

@@ -135,6 +135,9 @@ body {
         .carousel .carousel-caption h1 {
             margin-bottom: 30px;
         }
+        .carousel .carousel-caption a {
+            width:200px;
+        }
 
 .carousel-svg-image img {
     width: 320px;

@@ -1,0 +1,170 @@
+﻿
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>TROLL UNIVERSITY</title>
+</head>
+<body>
+
+    <header>
+        <div class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="index.html"><img class="navbar-brand hidden-sm" src="images/troll-logo.png" width="350" alt="troll-logo" /></a>
+                </div>
+                <nav class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav pull-right" id="nav-two">
+                        <li>
+                            <audio id="beep-two" preload="auto">
+                                <source src="sounds/beep.mp3" />
+                                <source src="sounds/beep.ogg" />
+                                Your browser isn't invited for super fun time.
+                            </audio>
+                        </li>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li><a href="about-us.html">About us</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Specialties<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="internet-troll.html">Internet Troll</a></li>
+                                <li><a href="real-life-troll.html">Real Life Troll</a></li>
+                            </ul>
+                        <li><a href="partners.html">Partners</a></li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
+                <form role="form">
+                    <h2>Please Sign Up <small>It's not free and it'll never be.</small></h2>
+                    <hr class="colorgraph">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-6">
+                            <div class="form-group">
+                                <input type="text" name="first_name" id="first_name" class="form-control input-lg" placeholder="First Name" tabindex="1">
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6">
+                            <div class="form-group">
+                                <input type="text" name="last_name" id="last_name" class="form-control input-lg" placeholder="Last Name" tabindex="2">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="display_name" id="display_name" class="form-control input-lg" placeholder="Display Name" tabindex="3">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" id="email" class="form-control input-lg" placeholder="Email Address" tabindex="4">
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-6">
+                            <div class="form-group">
+                                <input type="password" name="password" id="password" class="form-control input-lg" placeholder="Password" tabindex="5">
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6">
+                            <div class="form-group">
+                                <input type="password" name="password_confirmation" id="password_confirmation" class="form-control input-lg" placeholder="Confirm Password" tabindex="6">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-4 col-sm-3 col-md-3">
+                            <span class="button-checkbox">
+                                <input type="checkbox" name="t_and_c" id="t_and_c" class="hidden" value="1">
+                            </span>
+                        </div>
+                        <div class="col-xs-8 col-sm-9 col-md-10">
+                            By clicking <strong class="label label-primary">Register</strong>, you agree to the <a href="#" data-toggle="modal" data-target="#t_and_c_m"><strong>Terms and Conditions</strong></a> set out by this site, including our Cookie Use.
+                        </div>
+                    </div>
+
+                    <hr class="colorgraph">
+                    <div class="row">
+                        <div class="col-xs-12 col-md-12"><input type="submit" onclick="notsure()" value="Do not register." class="btn btn-primary btn-block btn-lg" tabindex="7"></div>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="t_and_c_m" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                        <h4 class="modal-title" id="myModalLabel">Terms & Conditions</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>U MAD BRAH?</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">I Agree</button>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+    </div>
+
+    <footer>
+        <div class="navbar navbar-inverse navbar-fixed-bottom">
+            <div class="container">
+                <p class="navbar-text pull-left">&copy; Team Chamoisee&nbsp;&nbsp;&nbsp;</p>
+
+                <p class="pull-left navbar-text hidden-xs">
+                    <a href="http://validator.w3.org/check?uri=referer">
+                        <img src="http://949web.com/images/w3chtml5.png"
+                             alt="Valid HTML 5!" height="25" width="80" />
+                    </a>
+                </p>
+                <p class="pull-left navbar-text hidden-xs">
+                    <a href="http://validator.w3.org/check?uri=referer">
+                        <img src="http://www.vivarenov.com/images/css3.png"
+                             alt="Valid CSS 3!" height="25" width="80" />
+                    </a>
+                </p>
+                <div id="plugin" class="pull-left navbar-btn btn ">
+                    <iframe class="hidden-md hidden-sm hidden-xs" src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Ftr0lluni%2F&amp;width=150&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=21"></iframe>
+                </div>
+
+                <a class="navbar-btn pull-left btn hidden-md hidden-sm hidden-xs" href=" http://www.zombo.com">
+                    <img src="images/zombo.jpg" height="25" width="120" alt="zombo" />
+                </a>
+
+                <a class="navbar-btn btn-primary pull-right btn" href="https://softuni.bg">
+                    <img src="images/softuni-logo.png" height="25" width="120" alt="softuni" />
+                </a>
+                <p class="navbar-text pull-right hidden-xs hidden-sm">Please visit softuni.bg</p>
+
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="javascript/main-javascript.js"></script>
+
+    <div id="fb-root"></div>
+</body>
+</html>
